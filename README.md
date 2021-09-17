@@ -1,7 +1,7 @@
 # How to Generate a Kindle Dictionary
-Note: Originally inspired by [Michael Sheldon](https://blog.mikeasoft.com/2011/01/05/free-as-in-gpl2-translation-dictionaries-for-the-kindle/).
+Note: Originally inspired by [Michael Sheldon](https://blog.mikeasoft.com/2011/01/05/free-as-in-gpl2-translation-dictionaries-for-the-kindle/). before creating your own dictionary see if he has one on his page already for your language.
 
-Instructions (based on [this article](https://1manfactory.com/create-your-own-kindle-dictionary-for-every-language-for-free/):
+Instructions (based on [this article](https://1manfactory.com/create-your-own-kindle-dictionary-for-every-language-for-free/)):
 
 1. Download desired dictionary file from [dict.cc](https://www1.dict.cc/translation_file_request.php)
 2. unzip and name txt file something like `dict.cc_EL-EN.txt`
@@ -19,7 +19,7 @@ mkdir tmp && cd tmp
 ````bash
 # download mobigen:
 curl http://www.freekindlebooks.org/Dev/Mobi/mobigen/mobigen.exe
-# run mobigen (with wine if on linux)
+# run mobigen (with wine if on linux):
 wine64 mobigen.exe ./dict.cc_EL-EN.opf
 # file dict.cc_EL-EN.mobi should be created!
 ````
