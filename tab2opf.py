@@ -121,7 +121,9 @@ importmod()
 def readkey(r, defs):
     try: term, defn =  r.split('\t',1)
     except ValueError:
-        print("Bad line: '{}'".format(r))
+        print("Skipping Bad line: '{}'".format(r))
+        #import pdb; pdb.set_trace()
+        return
         raise
 
     term = term.strip()
@@ -171,7 +173,11 @@ def readkeys():
     with open(FILENAME,'r', encoding='utf-8') as fr:
         defns = {}
         for r in filter(inclline, fr):
-            readkey(r, defns)
+            try:
+                readkey(r, defns)
+            except Exception:
+                print("skipping exception")
+                continue
         return defns
 
 # Write to key file {name}{n}.html
