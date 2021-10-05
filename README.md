@@ -35,4 +35,4 @@ Originally I tried to use the code provided in Michael Sheldon's article but the
 
 
 ### Specific Language Notes:
-* Turikish -> English checkout [Kevin Cole's article](https://www.kevin-cole.com/kindle-optimized-turkish-to-english-dictionary/)
+* Turkish -> English checkout [Kevin Cole's article](https://www.kevin-cole.com/kindle-optimized-turkish-to-english-dictionary/)
