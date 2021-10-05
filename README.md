@@ -32,3 +32,7 @@ wine64 mobigen.exe ./dict.cc_EL-EN.opf
 ## More info:
 
 Originally I tried to use the code provided in Michael Sheldon's article but the greek dictionary I created didn't seem to work on the Kindle (I think because the entries were all converted to Latin characters).  I found [this reddit thread](https://www.reddit.com/r/kindle/comments/9rb7hp/how_do_i_create_a_custom_kindle_dictionary/e8fo1uu?utm_source=share&utm_medium=web2x&context=3) and ended up forking [apeyser's repo](https://github.com/apeyser/tab2opf) instead.
+
+
+### Specific Language Notes:
+* Turikish -> English checkout [Kevin Cole's article](https://www.kevin-cole.com/kindle-optimized-turkish-to-english-dictionary/)
